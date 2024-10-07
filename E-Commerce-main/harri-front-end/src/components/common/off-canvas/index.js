@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 // internal
 import shape from "@assets/img/shape/offcanvas-shape-1.png";
-import logo from "@assets/img/logo/logo-black.svg";
+import logo from "@assets/img/logo/venteslogo.png";
 import MobileMenus from "./mobile-menus";
 import SocialLinks from "@components/social";
 
@@ -31,7 +31,7 @@ const OffCanvas = ({ isOffCanvasOpen, setIsOffCanvasOpen }) => {
             <div className="offcanvas__top mb-40 d-flex justify-content-between align-items-center">
               <div className="offcanvas__logo logo">
                 <Link href="/">
-                  <Image src={logo} alt="logo" />
+                  <Image style={{width:"162px",height:"42px"}} src={logo} alt="logo" />
                 </Link>
               </div>
             </div>

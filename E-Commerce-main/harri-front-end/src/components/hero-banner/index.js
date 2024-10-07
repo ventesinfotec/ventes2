@@ -73,7 +73,7 @@ const HeroBanner = () => {
               key={item.id}
               className="slider__item-13 slider__height-13 grey-bg-17 d-flex align-items-end"
             >
-              <div className="container">
+              <div className="container ">
                 <div className="row align-self-end">
                   <div className="col-xl-6 col-lg-6">
                     <div className="slider__content-13">

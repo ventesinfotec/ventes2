@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 // internal
-import logo from "@assets/img/logo/logo-black.svg";
+import logo from "@assets/img/logo/venteslogo.png";
 import payment from "@assets/img/footer/footer-payment.png";
 import SocialLinks from "@components/social";
 import CopyrightText from "./copyright-text";
@@ -44,7 +44,7 @@ const Footer = () => {
                   <div className="footer__widget footer__widget-11 mb-50 footer-col-11-1">
                     <div className="footer__logo">
                       <Link href="/">
-                        <Image src={logo} alt="logo" />
+                        <Image style={{width:'162px' , height:"44px"}}  src={logo} alt="logo" />
                       </Link>
                     </div>
 
