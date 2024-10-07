@@ -40,7 +40,7 @@ app.use("/api/admin", adminRoutes);
 // root route
 app.get("/", (req, res) => res.send("Apps worked successfully"));
 
-const PORT = secret.port || 5000;
+const PORT = secret.port ;
 
 // global error handler
 app.use(globalErrorHandler);
