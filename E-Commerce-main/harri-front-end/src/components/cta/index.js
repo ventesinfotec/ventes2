@@ -10,10 +10,10 @@ const ShopCta = () => {
   return (
     <section
       className="cta__area pt-50 pb-50 p-relative include-bg jarallax"
-      style={{ backgroundImage: `url(${bg.src})` }}
+      style={{ backgroundColor:"#1106af" }}
     >
       <div className="container">
-        <div className="cta__inner-13 white-bg">
+        <div style={{borderRadius:"30px"}} className="cta__inner-13 white-bg">
           <div className="row align-items-center">
             <div className="col-xl-6 col-lg-6">
               <div className="cta__content-13">

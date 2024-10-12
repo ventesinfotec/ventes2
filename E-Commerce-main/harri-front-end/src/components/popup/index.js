@@ -60,7 +60,7 @@ const Popup = () => {
             &times;
           </button>
           <div>
-            <h2 style={{ color: "green", marginBottom: "10px" }}>
+            <h2 style={{ color: "blue", marginBottom: "10px" }}>
               DAILY PROMOTION
             </h2>
             <p style={{ marginBottom: "20px" }}>SIGN UP FOR NEWSLETTER</p>
@@ -83,7 +83,7 @@ const Popup = () => {
                 type="submit"
                 style={{
                   padding: "10px 20px",
-                  backgroundColor: "green",
+                  backgroundColor: "blue",
                   color: "white",
                   border: "none",
                   cursor: "pointer",

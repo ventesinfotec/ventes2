@@ -3,7 +3,7 @@ import { FaAward, FaBuilding, FaCar, FaConciergeBell, FaGasPump, FaGraduationCap
 
 export default function MoreArea() {
   return (
-    <div className='my-4 pt-4 text-white bg-primary'>
+    <div style={{backgroundColor:"#1106af"}}  className='my-4 pt-4 text-white'>
       <div className='row text-center'>
         <div className='col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4 p-3'></div>
         <div className='col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4 p-3' style={{ fontSize: '24px', fontWeight: 'bold', color: 'white' }}>Available Solution's </div>

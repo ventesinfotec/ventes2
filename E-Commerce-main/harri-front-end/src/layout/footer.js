@@ -69,9 +69,9 @@ const Footer = () => {
                   title="Company"
                   contents={[
                     { url: "#", title: "About us" },
-                    { url: "#", title: "Careers" },
-                    { url: "#", title: "Store Locations" },
-                    { url: "#", title: "Our Blog" },
+                    // { url: "#", title: "Careers" },
+                    // { url: "#", title: "Store Locations" },
+                    // { url: "#", title: "Our Blog" },
                     // { url: "#", title: "Reviews" },
                   ]}
                 />
@@ -114,13 +114,13 @@ const Footer = () => {
                       <div className="footer__contact">
                         <div className="footer__contact-call">
                           <span>
-                            <a href="tel:624-423-26-72">+624 423 26 72</a>
+                            <a href="tel:624-423-26-72">+91 96399 94069</a>
                           </span>
                         </div>
                         <div className="footer__contact-mail">
                           <span>
-                            <a href="mailto:support@harry.com">
-                              support@harry.com
+                            <a href="mailto:sales@ventesinfotech.com">
+                              sales@ventesinfotech.com
                             </a>
                           </span>
                         </div>
