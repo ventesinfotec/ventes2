@@ -13,6 +13,7 @@ import ShopCta from "@components/cta";
 import Footer from "@layout/footer";
 import CustomerReviews from "@components/customer-reviews";
 import Popup from "@components/popup";
+import MoreArea from "@components/moreArea";
 
 const HomeShop = () => {
   return (
@@ -26,6 +27,7 @@ const HomeShop = () => {
       <OfferPopularProduct />
       <ShopBanner />
       <ShopFeature />
+      <MoreArea/>
       <CustomerReviews />
       <ShopCta />
       <Footer />
